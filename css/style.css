@@ -19,6 +19,7 @@ header {
 .navbar a {
   color: black;
   font-size: 17px;
+  font-family: 'Poppins', sans-serif;
 }
 
 p {
