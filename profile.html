@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Barangay Rosary Heights IV</title>
+
+    <!--Favicon-->
+    <link rel="icon" type="image/x-icon" href="img/favicon.png">
+
+    <!--Local CSS-->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap" rel="stylesheet">
+
+    <!--Bootstrap 5 CSS & JS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/boxicons@2.1.3/dist/boxicons.js"></script>
+
+</head>
+<body>
+    
+    <!--Header-->
+    <div style="min-height: 100vh"> 
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-secondary">
+            <div class="container">
+            <div class="col-6 col-sm-4">
+                <a class="navbar-brand" href="index.html"><img class="logo img-fluid mb-2" src="img/logo-1.png" alt="RH IV Logo"></a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                    <a class="nav-link p-3" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle p-3" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+                            About Us
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="history.html">History</a></li>
+                            <li><a class="dropdown-item" href="officials.html">Officials</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle p-3" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+                            News
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="projects-activities.html">Projects & Activities</a></li>
+                            <li><a class="dropdown-item" href="accomplishments.html">Accomplishments</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle p-3" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+                            Services
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="login.html">Certificates</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-3" href="contact.html">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-3" href="login.html">Login</a>
+                    </li>
+                </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--Main Content-->
+    <main>
+        <section class="inquiry">
+            <div class="container-fluid" style="background-color: #a3162e">
+                <h1 class="display-5 fw-bold p-3 mb-4 text-center" style="color: #ffffff">PROFILE DETAILS</h1>
+            </div>
+            <div class="col-md-12 mx-auto col-lg-4 mb-5 p-2">
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link active" id="personal-tab" data-bs-toggle="tab" data-bs-target="#personal" type="button" role="tab">Personal</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab">Contact</button>
+                      </li>
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link" id="address-tab" data-bs-toggle="tab" data-bs-target="#address" type="button" role="tab">Address</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link" id="emergency-tab" data-bs-toggle="tab" data-bs-target="#emergency" type="button" role="tab">Emergency Info</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="requests-tab" data-bs-toggle="tab" data-bs-target="#requests" type="button" role="tab">Requests</button>
+                      </li>
+                </ul>
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="personal" role="tabpanel">
+                        <form class="p-4 p-md-10 border rounded-3 bg-light" action="signup-profile2.html">
+                            <div class="text-center mb-4">
+                                <input type="button" class="w-30 btn btn-lg btn-primary" value="Update Profile">
+                             </div>
+                            <div class="text-center mb-3 mt-3">
+                                <img src="img/kagawad-1.jpg" class ="img-fluid" style="border-radius: 40px; border: solid 2px; border-color: #a3162e;" alt="">
+                            </div>
+                            <div class="mb-4">
+                                <label for="precint" class="mb-1">Precint Number:</label>
+                                <input type="text" class="form-control" id="floatingInput" placeholder="" value="001-001" disabled>
+                            </div>
+                            <div class="mb-4">
+                                <label for="precint" class="mb-1">First Name:</label>
+                                <input type="text" class="form-control" id="floatingInput" placeholder="" value="Cyril John" disabled>
+                            </div>
+                            <div class="mb-4">
+                                <label for="precint" class="mb-1">Middle Name:</label>
+                                <input type="text" class="form-control" id="floatingInput" placeholder="" value="Am-is" disabled>
+                            </div>
+                            <div class="mb-4">
+                                <label for="precint" class="mb-1">Last Name:</label>
+                                <input type="text" class="form-control" id="floatingInput" placeholder="" value="Taping" disabled>
+                            </div>
+                            <div class="mb-4 mt-3">
+                                <label for="gender" class="mb-1">Gender:</label>
+                                <select class="form-select" id="gender" name="gender" disabled>
+                                    <option value="1"> &nbsp </option>
+                                    <option value="2" selected>Male</option>
+                                    <option value="3">Female</option>
+                                </select>  
+                            </div>
+                            <div class="mb-4 mt-3">
+                                <label for="religion" class="mb-1">Religion:</label>
+                                <select class="form-select" id="religion" name="religion" disabled>
+                                    <option value="1"> &nbsp </option>
+                                    <option value="2" selected>Roman Catholic</option>
+                                    <option value="3">Islam</option>
+                                    <option value="4">Christian</option>
+                                </select>   
+                            </div>
+                            <div class="mb-4 mt-3">
+                                <label for="status" class="mb-1">Civil Status:</label>
+                                <select class="form-select" id="status" name="status" disabled>
+                                    <option value="1"> &nbsp </option>
+                                    <option value="2">Single</option>
+                                    <option value="3" selected>Married</option>
+                                    <option value="4">Divorced</option>
+                                    <option value="5">Widowed</option>
+                                </select>   
+                            </div>
+                        </form>
+                    </div>
+                    <div class="tab-pane fade" id="contact" role="tabpanel">
+                        <form class="p-4 p-md-10 border rounded-3 bg-light" action="signup-profile2.html">
+                            <div class="mb-4">
+                                <label for="email" class="mb-1">Email Address:</label>
+                                <input type="text" class="form-control" id="floatingInput" placeholder="" value="cy_taping@gmail.com" disabled>
+                            </div>
+                            <div class="mb-4">
+                                <label for="contactnumber1" class="mb-1">Contact Number 1:</label>
+                                <input type="text" class="form-control" id="floatingInput" placeholder="" value="09123456789" disabled>
+                            </div>
+                            <div class="mb-4">
+                                <label for="contactnumber2" class="mb-1">Contact Number 2:</label>
+                                <input type="text" class="form-control" id="floatingInput" placeholder="" value="064-421-1234" disabled>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="tab-pane fade" id="address" role="tabpanel">
+                        <form class="p-4 p-md-10 border rounded-3 bg-light" action="signup-profile2.html">
+                            <div class="mb-4">
+                                <label for="residency" class="mb-1">Residency:</label>
+                                <input type="text" class="form-control" id="floatingInput" placeholder="" value="Home Owner" disabled>
+                            </div>
+                            <div class="mb-4">
+                                <label for="years" class="mb-1">Number of Years in Barangay:</label>
+                                <input type="text" class="form-control" id="floatingInput" placeholder="" value="25" disabled>
+                            </div>
+                            <div class="mb-4">
+                                <label for="block" class="mb-1">Block/Lot:</label>
+                                <input type="text" class="form-control" id="floatingInput" placeholder="" value="Block 69" disabled>
+                            </div>
+                            <div class="mb-4">
+                                <label for="phase" class="mb-1">Phase:</label>
+                                <input type="text" class="form-control" id="floatingInput" placeholder="" value="Phase 2" disabled>
+                            </div>
+                            <div class="mb-4">
+                                <label for="street" class="mb-1">Street:</label>
+                                <input type="text" class="form-control" id="floatingInput" placeholder="" value="Sesame Street" disabled>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="tab-pane fade" id="emergency" role="tabpanel">
+                        <form class="p-4 p-md-10 border rounded-3 bg-light" action="signup-profile2.html">
+                            <div class="mb-4">
+                                <label for="econtactname" class="mb-1">Emergency Contact Name:</label>
+                                <input type="text" class="form-control" id="floatingInput" placeholder="" value="Bruno Mars" disabled>
+                            </div>
+                            <div class="mb-4">
+                                <label for="econtactrelation" class="mb-1">Emergency Contact Relationship:</label>
+                                <input type="text" class="form-control" id="floatingInput" placeholder="" value="Father" disabled>
+                            </div>
+                            <div class="mb-4">
+                                <label for="econtactnum" class="mb-1">Emergency Contact Number:</label>
+                                <input type="text" class="form-control" id="floatingInput" placeholder="" value="09123456789" disabled>
+                            </div>
+                            <div class="mb-4">
+                                <label for="econtactaddress" class="mb-1">Emergency Contact Address:</label>
+                                <input type="text" class="form-control" id="floatingInput" placeholder="" value="Cotabato City" disabled>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="tab-pane fade" id="requests" role="tabpanel">
+                        <div class="mt-5">
+                            <table class="table table-bordered">
+                                <thead>
+                                    <tr class="table-primary">
+                                    <th scope="col">Request ID</th>
+                                    <th scope="col">Type</th>
+                                    <th scope="col">Date Requested</th>
+                                    <th scope="col">Status</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                    <th scope="row">078-2022</th>
+                                    <td>Barangay Certificate</td>
+                                    <td>January 10, 2022</td>
+                                    <td style="color: red">Rejected</td>
+                                    </tr>
+                                    <tr>
+                                    <th scope="row">201-2023</th>
+                                    <td>Barangay Certificate</td>
+                                    <td>June 5, 2023</td>
+                                    <td>Pending</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> 
+
+    </main>
+    </div>
+
+    <!--Footer-->
+    <div class="container-fluid bg-body-secondary">
+        <div class="container">
+            <footer class="py-2 my-2">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Home</a></li>
+                <li class="nav-item"><a href="history.html" class="nav-link px-2 text-muted">History</a></li>
+                <li class="nav-item"><a href="officials.html" class="nav-link px-2 text-muted">Officials</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link px-2 text-muted">Contact Us</a></li>
+            </ul>
+            <p class="text-center text-muted">© 2023 Barangay Rosary Heights IV</p>
+            </footer>
+        </div>
+    </div>
+
+</body>
+</html>
